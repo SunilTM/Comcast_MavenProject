@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-21T11:25:16Z" name="Default suite" finished-at="2021-09-21T11:25:16Z" duration-ms="167">
+  <suite started-at="2021-09-22T18:15:16 IST" name="Default suite" finished-at="2021-09-22T18:15:16 IST" duration-ms="58">
     <groups>
+      <group name="Regressionsuite">
+        <method signature="OrgTest.createOrgwithIndustriesTest()[pri:0, instance:com.comcast.orgTest.OrgTest@41e1e210]" name="createOrgwithIndustriesTest" class="com.comcast.orgTest.OrgTest"/>
+        <method signature="OrgTest.deleteOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@41e1e210]" name="deleteOrgTest" class="com.comcast.orgTest.OrgTest"/>
+      </group> <!-- Regressionsuite -->
+      <group name="Smokesuite">
+        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@41e1e210]" name="createOrgTest" class="com.comcast.orgTest.OrgTest"/>
+      </group> <!-- Smokesuite -->
     </groups>
-    <test started-at="2021-09-21T11:25:16Z" name="Default test" finished-at="2021-09-21T11:25:16Z" duration-ms="167">
-      <class name="com.comcast.contactTest.ContactTest">
-        <test-method signature="createContactTest()[pri:0, instance:com.comcast.contactTest.ContactTest@418c5a9c]" started-at="2021-09-21T11:25:16Z" name="createContactTest" finished-at="2021-09-21T11:25:16Z" duration-ms="15" status="PASS">
+    <test started-at="2021-09-22T18:15:16 IST" name="Default test" finished-at="2021-09-22T18:15:16 IST" duration-ms="58">
+      <class name="com.comcast.orgTest.OrgTest">
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@41e1e210]" started-at="2021-09-22T18:15:16 IST" name="createOrgTest" finished-at="2021-09-22T18:15:16 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method signature="createContactwithOrgTest()[pri:0, instance:com.comcast.contactTest.ContactTest@418c5a9c]" started-at="2021-09-21T11:25:16Z" name="createContactwithOrgTest" finished-at="2021-09-21T11:25:16Z" duration-ms="3" status="PASS">
+        </test-method> <!-- createOrgTest -->
+        <test-method signature="createOrgwithIndustriesTest()[pri:0, instance:com.comcast.orgTest.OrgTest@41e1e210]" started-at="2021-09-22T18:15:16 IST" name="createOrgwithIndustriesTest" finished-at="2021-09-22T18:15:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactwithOrgTest -->
-        <test-method signature="deleteContactTest()[pri:0, instance:com.comcast.contactTest.ContactTest@418c5a9c]" started-at="2021-09-21T11:25:16Z" name="deleteContactTest" finished-at="2021-09-21T11:25:16Z" duration-ms="55" status="PASS">
+        </test-method> <!-- createOrgwithIndustriesTest -->
+        <test-method signature="deleteOrgTest()[pri:0, instance:com.comcast.orgTest.OrgTest@41e1e210]" started-at="2021-09-22T18:15:16 IST" name="deleteOrgTest" finished-at="2021-09-22T18:15:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteContactTest -->
-      </class> <!-- com.comcast.contactTest.ContactTest -->
+        </test-method> <!-- deleteOrgTest -->
+      </class> <!-- com.comcast.orgTest.OrgTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
