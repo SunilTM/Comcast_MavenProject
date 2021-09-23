@@ -7,6 +7,13 @@ public class ContactTest {
 	@Test(groups = "Smokesuite")
 	public void createContactTest() {
 		System.out.println("Execute createContactTest");
+
+		String BROWSER= System.getProperty("browser");
+		String ENV =System.getProperty("url");
+
+		
+		System.out.println("Browser======>" +BROWSER );
+		System.out.println("URL===> "+ ENV);
 	}
 
 	@Test(groups = "Regressionsuite")

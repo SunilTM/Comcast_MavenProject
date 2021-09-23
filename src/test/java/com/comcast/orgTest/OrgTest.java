@@ -8,12 +8,6 @@ public class OrgTest {
 	public void createOrgTest() {
 		System.out.println("Execute createOrgTest");
 		
-		String BROWSER= System.getProperty("browser");
-		String ENV =System.getProperty("url");
-
-		
-		System.out.println("Browser======>" +BROWSER );
-		System.out.println("URL===> "+ ENV);
 	}
 
 	@Test(groups = "Regressionsuite")
