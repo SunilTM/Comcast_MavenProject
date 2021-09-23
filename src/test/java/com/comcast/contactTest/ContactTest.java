@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ContactTest {
 
-	@Test(groups = "Smokesuite")
+	@Test(groups = {"Smokesuite","Regressionsuite"})
 	public void createContactTest() {
 		System.out.println("Execute createContactTest");
 
